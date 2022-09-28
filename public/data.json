@@ -1,44 +1,44 @@
 [
   {
     "id": "1",
-    "image": "https://media.allure.com/photos/62b339e0c926aa677afe13b0/1:1/w_2000,h_2000,c_limit/Olay%20Regenerist%20Collagen%20Peptide24%20Moisturizer.jpeg",
+    "img": "https://blog.nasm.org/hubfs/power-pushups.jpg",
     "title": "Pushups",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus debitis ratione alias eaque mollitia dignissimos.",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipisici.",
     "time": 30
   },
   {
     "id": "2",
-    "image": "https://shop.shajgoj.com/wp-content/uploads/2021/12/Nirvana-Color-Eye-Shadow-Palette-%E2%80%93-You-Go-Girl-5.jpg",
+    "img": "https://img.freepik.com/free-photo/attractive-shirtless-man-cap-is-doing-lunge-with-barbell-dark-photo-studio_613910-14909.jpg?w=2000",
     "title": "Lunges",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus debitis ratione alias eaque mollitia dignissimos.",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipisici.",
     "time": 30
   },
   {
     "id": "3",
-    "image": "https://www.glamygirl.com/wp-content/uploads/Wet-N-Wild-Megalast-Liquid-Catsuit-Matte-Lipstick-E925B-Give-Me-Mocha-1.jpg",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSaip6zfd7ybncQIoWtu5klx17q9FO-kBccw&usqp=CAU",
     "title": "Planks",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus debitis ratione alias eaque mollitia dignissimos.",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipisici.",
     "time": 30
   },
   {
     "id": "4",
-    "image": "https://4.imimg.com/data4/CL/JV/MY-2501307/fancy-mirror-500x500.jpg",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ladpePAnZIygjgQ88ZNhno4LpfKQqU8dWe-zigJsWViZHiGWKmOHTomngxjJYQnOYuQ&usqp=CAU",
     "title": "Dumbbell rows",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus debitis ratione alias eaque mollitia dignissimos.",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipisici.",
     "time": 30
   },
   {
     "id": "5",
-    "image": "https://chefcart.com.bd/wp-content/uploads/2020/12/Johnsons-Baby-Original-Baby-Softness-Lotion.jpg",
+    "img": "https://www.podiumrunner.com/wp-content/uploads/2020/08/thumb-1.jpg?width=720",
     "title": "Glute bridge",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus debitis ratione alias eaque mollitia dignissimos.",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipisici.",
     "time": 30
   },
   {
     "id": "6",
-    "image": "https://chefcart.com.bd/wp-content/uploads/2020/12/Johnsons-Baby-Original-Baby-Softness-Lotion.jpg",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ixPIkjizeDMv4tW_aQnTFKt5aM5zS7iV5Y6FDT_oyiEVhRcuGugGNvwVsVzTNwdrw5I&usqp=CAU",
     "title": "Knee tucks",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus debitis ratione alias eaque mollitia dignissimos.",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipisici.",
     "time": 30
   }
 ]

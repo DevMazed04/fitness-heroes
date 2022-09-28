@@ -1,0 +1,6 @@
+.gym-container {
+   display: grid;
+   grid-template-columns: 4fr 1fr;
+   /* display: flex;
+   justify-content: space-between; */
+}

@@ -58,7 +58,7 @@ const Questions = () => {
                      className="accordion-button collapsed bg-gradient text-dark opacity-75 fw-semibold px-4 py-4 border border-dark border-opacity-10 rounded"
                      type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
                      aria-controls="collapseThree">
-                     What are the other uses of useState Hook in React JS except loading api data?
+                     What are the other uses of useEffect Hook in React JS except loading api data?
                   </button>
                </h2>
                <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"

@@ -1,6 +1,17 @@
 .gym-container {
-   display: grid;
-   grid-template-columns: 4fr 1fr;
-   /* display: flex;
-   justify-content: space-between; */
+   /* display: grid; */
+   /* grid-template-columns: 4fr 1fr; */
+   display: flex;
+}
+
+.exercises-container {
+   margin-left: 100px;
+}
+
+.card-container {
+   width: 85%;
+}
+
+.exercise-details-container {
+   width: 70%;
 }

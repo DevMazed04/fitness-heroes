@@ -5,7 +5,7 @@ import Questions from './components/Questions/Questions';
 
 function App() {
   return (
-    <div className='px-5'>
+    <div className=''>
       <Header></Header>
       <Gym></Gym>
       <Questions></Questions>

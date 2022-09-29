@@ -15,7 +15,7 @@ const Gym = () => {
       <div className='gym-container'>
          <div className='exercises-container'>
             <h4>Exercises: {exercises.length}</h4>
-            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 w-75">
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 w-75 mb-5">
                {
                   exercises.map(exercise => <Exercise
                      key={exercise.id}

@@ -15,7 +15,7 @@
    height: 100%;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 280px) and (max-width: 576px) {
    .gym-container {
       display: flex;
       flex-direction: column;
@@ -37,5 +37,17 @@
 
    .card-container img {
       height: 200px;
+   }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+   .gym-container {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .exercise-details-container {
+      width: 90%;
+      margin: 0 auto;
    }
 }

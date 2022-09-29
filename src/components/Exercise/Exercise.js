@@ -11,7 +11,9 @@ const Exercise = ({ exercise, handleAddToList }) => {
             </div>
             <div className="card-body">
                <h5 className="card-title">{title}</h5>
-               <p className="card-text text-secondary">{body}</p>
+               <p className="card-text text-secondary">{body.length > 37
+                  ? body.slice(0, 37) + "..."
+                  : body}</p>
                <p className="card-text">Time Required: <b>{time}s</b></p>
                <button className="btn btn-primary bg-gradient rounded-3 w-100" onClick={() => handleAddToList(exercise)}>Add To List</button>
             </div>

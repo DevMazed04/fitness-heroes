@@ -3,42 +3,42 @@
     "id": "1",
     "img": "https://blog.nasm.org/hubfs/power-pushups.jpg",
     "title": "Pushups",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipisici.",
+    "body": "Pushups work multiple muscle groups, strengthening the arms, chest, and shoulders.",
     "time": 30
   },
   {
     "id": "2",
     "img": "https://img.freepik.com/free-photo/attractive-shirtless-man-cap-is-doing-lunge-with-barbell-dark-photo-studio_613910-14909.jpg?w=2000",
     "title": "Lunges",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipisici.",
+    "body": "Lunges work the thighs, buttocks, hips, and abdominal muscles.",
     "time": 30
   },
   {
     "id": "3",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSaip6zfd7ybncQIoWtu5klx17q9FO-kBccw&usqp=CAU",
     "title": "Planks",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipisici.",
+    "body": "Planks strengthen the back and abdominal muscles and help build core strength.",
     "time": 45
   },
   {
     "id": "4",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ladpePAnZIygjgQ88ZNhno4LpfKQqU8dWe-zigJsWViZHiGWKmOHTomngxjJYQnOYuQ&usqp=CAU",
-    "title": "Dumbbell rows",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipisici.",
+    "title": "Dumbbelling",
+    "body": "Dumbbell rows can strengthen the back and increase muscle growth.",
     "time": 45
   },
   {
     "id": "5",
     "img": "https://www.podiumrunner.com/wp-content/uploads/2020/08/thumb-1.jpg?width=720",
     "title": "Glute bridge",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipisici.",
+    "body": "Glute bridge is good for muscles in the back body, called the posterior chain.",
     "time": 60
   },
   {
     "id": "6",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ixPIkjizeDMv4tW_aQnTFKt5aM5zS7iV5Y6FDT_oyiEVhRcuGugGNvwVsVzTNwdrw5I&usqp=CAU",
     "title": "Knee tucks",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipisici.",
+    "body": "Knee tucks work the abdominals, calves, and shins by using an exercise ball.",
     "time": 60
   }
 ]

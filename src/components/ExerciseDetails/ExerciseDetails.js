@@ -31,7 +31,7 @@ const ExerciseDetails = ({ exerciseDetails }) => {
             {
                breaktimes.map(breaktime =>
                   <button
-                     className="btn btn-sm btn-outline-primary rounded-3 mx-2 mx-sm-3"
+                     className="mt-3 btn btn-sm btn-outline-primary rounded-3 mx-2 mx-sm-3 break-time"
                      onClick={() => showBreaktime(breaktime)}> <b><span>{breaktime}</span>s</b>
                   </button>)
             }

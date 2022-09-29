@@ -29,7 +29,7 @@ const UserInfo = () => {
       <div className="bg-light rounded-3 mt-3">
         <div className="d-flex justify-content-evenly gap-4">
           <p>
-            <h4 className="mb-0 mt-3 fw-bold">75
+            <h4 className="mb-0 mt-3 fw-bold">70
               <sub className="text-secondary fw-normal"> <small>Kg</small>
               </sub>
             </h4>Weight

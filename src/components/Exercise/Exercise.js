@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Exercise = (props) => {
-   const { img, title, body, time } = props.exercise
+const Exercise = ({ exercise, handleAddToList }) => {
+   const { img, title, body, time } = exercise;
 
    return (
       <div className="col">
@@ -13,22 +13,11 @@ const Exercise = (props) => {
                <h5 className="card-title">{title}</h5>
                <p className="card-text text-secondary">{body}</p>
                <p className="card-text">Time Required: <b>{time}s</b></p>
-               <button className="btn btn-primary bg-gradient rounded-3 w-100">Start Now</button>
+               <button className="btn btn-primary bg-gradient rounded-3 w-100" onClick={() => handleAddToList(exercise)}>Add To List</button>
             </div>
          </div>
       </div>
    );
 };
 
-
 export default Exercise;
-
-/* {
-   <div classNameName='exercise'>
-      <img src={img} alt="exercise-img" width="200px" />
-      <h4>{title}</h4>
-      <p>{body}</p>
-      <p>Time Required: <b>{time}s</b></p>
-      <button>Add to List</button>
-   </div>
-} */

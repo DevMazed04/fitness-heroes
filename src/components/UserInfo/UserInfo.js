@@ -44,7 +44,7 @@ const UserInfo = () => {
           <p>
             <h4 className="mb-0 mt-3 fw-bold">26
               <sub className="text-secondary fw-normal">
-                <small>Yrs</small>
+                <small> Yrs</small>
               </sub></h4>Age
           </p>
         </div>

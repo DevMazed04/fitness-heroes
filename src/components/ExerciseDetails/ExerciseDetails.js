@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { addToLS } from "../../utilities/fakeDb";
+import React, { useEffect, useState } from 'react';
 
 const ExerciseDetails = ({ exerciseDetails }) => {
    let time = 0;
@@ -12,23 +11,21 @@ const ExerciseDetails = ({ exerciseDetails }) => {
 
    const showBreaktime = (breaktime) => {
       setBreaktime(breaktime);
-      localStorage.setItem('breaktime', breaktime)
+
+      localStorage.setItem('breaktime', breaktime);
       console.log(breaktime);
+      //setBreaktime(getBreaktime);
    }
+
+   useEffect(() => {
+      const getBreaktime = localStorage.getItem('breaktime');
+      console.log('getBreaktime:', getBreaktime)
+   }, [])
 
    return (
       <div>
-         {/* <p>selected: {exerciseDetails.length}</p> */}
          <div className="mt-5">
             <h5>Add A Break </h5>
-            {/*  <div className="bg-light rounded-3 mt-4 py-3 ps-2 ps-sm-3">
-               <button className="btn btn-sm btn-outline-primary rounded-3 mx-2 mx-sm-3" onClick={() => addToLS('breakTime', 15)}> <b><span>15</span>s</b></button>
-
-               <button className="btn btn-sm btn-outline-primary rounded-3 mx-2 mx-sm-3" onClick={() => addToLS('breakTime', 30)}> <b><span>30</span>s</b></button>
-               <button className="btn btn-sm btn-outline-primary rounded-3 mx-2 mx-sm-3" onClick={() => addToLS('breakTime', 45)}> <b><span>45</span>s</b></button>
-               <button className="btn btn-sm btn-outline-primary rounded-3 mx-2 mx-sm-3" onClick={() => addToLS('breakTime', 60)}> <b><span>60</span>s</b></button>
-
-            </div> */}
 
             {
                breaktimes.map(breaktime =>
@@ -38,9 +35,6 @@ const ExerciseDetails = ({ exerciseDetails }) => {
                   </button>)
             }
          </div>
-
-
-
 
 
          <div className="mt-5">

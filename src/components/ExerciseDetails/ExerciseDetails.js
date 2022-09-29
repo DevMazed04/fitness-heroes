@@ -10,18 +10,18 @@ const ExerciseDetails = ({ exerciseDetails }) => {
    const breaktimes = [15, 30, 45, 60];
    const [breaktime, setBreaktime] = useState(0);
 
-   const showBreaktime = (breaktime) => {
-      setBreaktime(breaktime);
-
-      localStorage.setItem('breaktime', breaktime);
-      console.log(breaktime);
-      //setBreaktime(getBreaktime);
-   }
-
    useEffect(() => {
       const getBreaktime = localStorage.getItem('breaktime');
-      console.log('getBreaktime:', getBreaktime)
+      if (getBreaktime) {
+         setBreaktime(getBreaktime);
+      }
    }, [])
+
+   const showBreaktime = (breaktime) => {
+      setBreaktime(breaktime);
+      localStorage.setItem('breaktime', breaktime);
+      console.log(breaktime);
+   }
 
    return (
       <div>

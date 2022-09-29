@@ -1,23 +1,34 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Toast = () => {
+   const showToast = () =>
+      toast.success('Congratulations! You are done with your activity', {
+         position: "bottom-right",
+         autoClose: 5000,
+         hideProgressBar: false,
+         closeOnClick: true,
+         pauseOnHover: true,
+         draggable: true,
+         progress: undefined,
+      });
+
    return (
       <div>
-         <div aria-live="polite" aria-atomic="true" className="d-flex justify-content-center align-items-center w-100">
-
-            <div className="toast" role="alert" aria-live="assertive" aria-atomic="true">
-               <div className="toast-header">
-                  {/* <img src="..." className="rounded me-2" alt="..."> */}
-                  <strong className="me-auto">Bootstrap</strong>
-                  <small>11 mins ago</small>
-                  <button type="button" className="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-               </div>
-               <div className="toast-body">
-                  Congratulations! You have done with your activity..
-               </div>
-            </div>
-         </div>
-
+         <button className="btn btn-primary bg-gradient rounded-3 w-100 mt-5 mb-2" onClick={showToast}>Exercise Completed</button>
+         <ToastContainer
+            theme="dark"
+            position="bottom-right"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+         />
       </div>
    );
 };

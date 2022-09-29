@@ -17,7 +17,6 @@ const Gym = () => {
   const handleAddToList = (exercise) => {
     const newExerciseDetails = [...exerciseDetails, exercise];
     setExerciseDetails(newExerciseDetails);
-    // addToLS(exercise.id);
   }
 
   return (

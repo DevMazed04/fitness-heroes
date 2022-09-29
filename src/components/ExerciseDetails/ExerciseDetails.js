@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Toast from '../Toast/Toast';
 
 const ExerciseDetails = ({ exerciseDetails }) => {
    let time = 0;
@@ -53,8 +54,7 @@ const ExerciseDetails = ({ exerciseDetails }) => {
                   <p className="text-secondary"><span>{breaktime}</span> seconds</p>
                </div>
             </div>
-
-            <button className="btn btn-primary bg-gradient rounded-3 w-100 mt-5 mb-2">Exercise Completed</button>
+            <Toast></Toast>
          </div>
       </div >
    );
